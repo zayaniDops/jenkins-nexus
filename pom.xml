@@ -6,7 +6,7 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-RELEASE</version>
 
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
@@ -37,7 +37,7 @@
         </snapshots>
         <releases>
             <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
+            <updatePolicy>daily</updatePolicy>
         </releases>
     </pluginRepository>
 </pluginRepositories>
